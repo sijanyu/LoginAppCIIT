@@ -6,7 +6,7 @@ import android.widget.TextView
 import androidx.appcompat.widget.AppCompatButton
 import android.content.Intent
 
-class MainActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
     //showing of the main page
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

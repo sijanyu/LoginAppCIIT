@@ -3,10 +3,8 @@ package com.yu.sampleapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.TextView
 import androidx.appcompat.widget.AppCompatButton
-import org.w3c.dom.Text
 
 class SignupActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,13 +20,13 @@ class SignupActivity : AppCompatActivity() {
         registerButton.setOnClickListener {
             usernameTextView.text = ""
             passwordTextView.text = ""
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }
 
         goToLogin.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }

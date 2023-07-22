@@ -13,7 +13,7 @@ class HomeActivity : AppCompatActivity() {
         val logoutButton : AppCompatButton = findViewById(R.id.logout_button)
 
         logoutButton.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }
