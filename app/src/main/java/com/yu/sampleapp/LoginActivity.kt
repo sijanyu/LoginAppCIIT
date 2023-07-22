@@ -10,7 +10,7 @@ class LoginActivity : AppCompatActivity() {
     //showing of the main page
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_login)
 
         val registerNowTextView : TextView = findViewById(R.id.register_now_textview)
         val buttonLogin : AppCompatButton = findViewById(R.id.login_button)
